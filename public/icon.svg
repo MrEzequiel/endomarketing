@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36.135" height="36.284" viewBox="0 0 36.135 36.284">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.094" y1="0.302" x2="1.248" y2="0.821" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#055b8f"/>
+      <stop offset="1" stop-color="#79cde4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.147" y1="0.146" x2="0.853" y2="0.854" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="0.146" y1="0.149" x2="0.854" y2="0.864" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Grupo_109" data-name="Grupo 109" transform="translate(-62 -44)">
+    <path id="Caminho_22" data-name="Caminho 22" d="M81.041,94.156a.474.474,0,0,0-.633-.519c-4.728,1.971-7.461,6.791-7.893,7.593a.468.468,0,0,0-.057.242l.332,10.646v.04a18.087,18.087,0,0,0,4.431.551,18.275,18.275,0,0,0,2.728-.206.986.986,0,0,0,.029-.273,135.059,135.059,0,0,1,1.063-18.074Z" transform="translate(2.841 -32.425)" fill="url(#linear-gradient)"/>
+    <ellipse id="Elipse_7" data-name="Elipse 7" cx="5.176" cy="5.165" rx="5.176" ry="5.165" transform="translate(74.891 49.523)" fill="url(#linear-gradient-2)"/>
+    <path id="Caminho_23" data-name="Caminho 23" d="M31.621,30.144l.077-.086c.152-.184.3-.367.452-.551l.011-.015A18.156,18.156,0,0,0,18.066,0,18.163,18.163,0,0,0,3.886,29.389l.04.05c.1.134.213.264.321.395l.147.173c.1.117.2.231.3.345s.184.206.284.307L5,30.676a18.072,18.072,0,0,0,7.32,4.677V32A15.081,15.081,0,0,1,18.066,3.04a15.077,15.077,0,0,1,4.11,29.542v3.238a18.028,18.028,0,0,0,8.627-4.8c.073-.075.147-.149.218-.224s.184-.184.259-.273C31.4,30.4,31.509,30.271,31.621,30.144Z" transform="translate(62 44)" fill="url(#linear-gradient-3)"/>
+  </g>
+</svg>
