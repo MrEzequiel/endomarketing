@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { TitleProps } from '../../styles/LayoutComponents'
+import { TitleProps, ButtonProps } from '../../styles/LayoutComponents'
 
 export const AdvertisingContainer = styled.section`
   display: flex;
@@ -33,14 +33,10 @@ export const ConceptContainer = styled.aside`
 `
 
 export const ButtonConcept = styled.button`
-  cursor: pointer;
-  text-transform: uppercase;
+  ${ButtonProps({ size: '1.4rem', padding: '10px 20px' })}
+  font-weight: bold;
   border: 1px solid #707070;
-  border-radius: 4px;
   margin-top: 16px;
-  padding: 10px 20px;
-
-  ${TitleProps({ size: '1.3rem', weight: 'bold' })}
 `
 
 export const CommercialContainer = styled.aside`

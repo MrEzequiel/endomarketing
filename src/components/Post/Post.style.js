@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components'
+import { ButtonProps } from '../../styles/LayoutComponents'
 
 export const EntryContainer = styled.div`
   display: flex;
@@ -13,30 +14,24 @@ export const TitleSection = styled.h1`
   font-weight: 300;
 `
 
-const ButtonProps = () => css`
-  cursor: pointer;
-  text-transform: uppercase;
-  font-family: 'Segoe UI', sans-serif;
-  font-size: 1.4rem;
+const ButtonPropsEntry = () => css`
+  ${ButtonProps({ size: '1.4rem', padding: '0 8px' })}
 
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
   height: 38px;
-  padding: 0 8px;
-
-  border-radius: 4px;
 `
 
 export const TypeButton = styled.button`
-  ${ButtonProps()}
+  ${ButtonPropsEntry()}
   border: 1px solid #B4B4B4;
   background: #fff;
   width: 95px;
 `
 
 export const CreateButton = styled.button`
-  ${ButtonProps()}
+  ${ButtonPropsEntry()}
   background: #3489B1;
   color: #fff;
   font-weight: bold;

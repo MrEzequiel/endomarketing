@@ -16,4 +16,8 @@ export const MainContainer = styled.main`
   @media (max-width: 900px) {
     grid-template-columns: 1fr;
   }
+
+  @media (max-width: 450px) {
+    padding-top: 20px;
+  }
 `
