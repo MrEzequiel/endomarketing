@@ -5,7 +5,7 @@ import { ListPosts } from './Posts.style'
 
 import PostCard from './PostCard'
 
-function Posts() {
+function PostList() {
   const postsArray = jsonData.data
   console.log(postsArray)
 
@@ -22,4 +22,4 @@ function Posts() {
   )
 }
 
-export default Posts
+export default PostList

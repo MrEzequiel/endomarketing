@@ -3,7 +3,7 @@ import React from 'react'
 import arrowDown from '../../assets/arrow-down.svg'
 import plus from '../../assets/plus.svg'
 
-import Posts from './Posts'
+import PostList from './PostList'
 
 import {
   EntryContainer,
@@ -31,7 +31,7 @@ function Post() {
         </div>
       </EntryContainer>
 
-      <Posts />
+      <PostList />
     </section>
   )
 }
