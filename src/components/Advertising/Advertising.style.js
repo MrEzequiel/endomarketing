@@ -5,6 +5,12 @@ export const AdvertisingContainer = styled.section`
   display: flex;
   gap: 20px;
   flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: start;
+
+  @media (max-width: 900px) {
+    flex-direction: row-reverse;
+  }
 `
 
 export const Title = styled.h3`
@@ -19,6 +25,8 @@ export const Text = styled.p`
 `
 
 export const ConceptContainer = styled.aside`
+  flex: 1;
+  height: min-content;
   background: #fff2de;
   border: 1px solid #dcd1c0;
   padding: 30px 20px;

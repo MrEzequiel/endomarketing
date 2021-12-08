@@ -8,4 +8,12 @@ export const MainContainer = styled.main`
   max-width: ${props => props.container};
   margin: 0 auto;
   padding: 32px 10px 0;
+
+  @media (max-width: 1200px) {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+  }
 `

@@ -4,6 +4,8 @@ export const EntryContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 5px;
+  flex-wrap: wrap;
 `
 
 export const TitleSection = styled.h1`

@@ -10,9 +10,17 @@ export const PostCardStyle = styled.li`
   background: #fff;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
   display: grid;
+  align-items: center;
   grid-template-columns: auto auto 1fr;
   gap: 14px;
   padding: 10px 15px;
+
+  @media (max-width: 420px) {
+    img {
+      grid-column: 1/-1;
+      justify-self: center;
+    }
+  }
 
   @keyframes show-left {
     from {
